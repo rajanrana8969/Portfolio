@@ -21,7 +21,7 @@
  }
 
  body{
-    background: var (--bg-color);
+    background: var(--bg-color);
     color: var(--text-color);
  }
   section{
@@ -39,14 +39,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12rem 10%;
+    padding: 2rem 10%;
     background: var(--main-color);
     backdrop-filter: blur(10px);
     transition: all 0.5s ease;
  }
 
  .logo{
-    font-size: 8rem;
+    font-size: 3rem;
     color: var(--bg-color);
     font-weight: 700;
     cursor:pointer;
@@ -58,7 +58,7 @@
  }
 
  .navbar a {
-    font-size: 7rem;
+    font-size: 2rem;
     color: var(--bg-color);
     margin-right: 0;
     margin-left: 10rem;
@@ -118,7 +118,7 @@
  }
 
  .home-content h3{
-    font-size: 7rem;
+    font-size: 3rem;
     font-weight:700;
  }
 
@@ -131,25 +131,25 @@
  }
 
  .home-content h1 {
-    font-size: 11rem;
+    font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
  }
 
  .home-content p {
-    font-size: 5rem;
+    font-size: 1.8rem;
  }
 
  .social-media a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 45px;
+    height: 45px;
     background: transparent;
     border: 0.8rem solid var(--main-color);
     border-radius: 50px;
-    font-size: 6rem;
+    font-size: 2rem;
     color: var(--main-color);
     margin: 3.5rem 2rem 3rem 0;
     transition: 0.3s ease;
@@ -168,7 +168,7 @@
     background: var(--main-color);  
     border-radius: 4rem;
     box-shadow: none;
-    font-size: 5rem;
+    font-size: 1.8rem;
     color: var(--bg-color);
     letter-spacing: 0.1rem;
     font-weight: 600;
@@ -192,7 +192,7 @@
 
 
 .heading{
-   font-size: 12rem;
+   font-size: 4.5rem;
    text-align:left;
 }
 
@@ -206,11 +206,11 @@
 }
 
 .about-content h3{
-     font-size: 7rem;
+     font-size: 2.8rem;
 }
  
 .about-content p{
-   font-size:6rem;
+   font-size:1.8rem;
    margin:4rem 0 6rem;
 }
 
@@ -218,7 +218,7 @@
 
 .services h2{
    text-align: center;
-   font-size: 12rem;
+   font-size: 4.5rem;
    margin-bottom: 5rem;
 }
 
@@ -245,17 +245,17 @@
 }
 
 .services-box i{
-   font-size: 14rem;
+   font-size: 5rem;
    color: var(--main-color);
    margin-bottom: 4rem;
 }
 
 .services-box h3{
-   font-size: 10rem;
+   font-size: 2.5rem;
    margin-bottom: 5rem;
 }
 .services-box p{
-   font-size: 5rem;
+   font-size: 1.6rem;
    margin: 3rem 0 5rem;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .section-title {
-  font-size: 15rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin-bottom: 85px;
    color: var(--main-color);
@@ -294,7 +294,7 @@
 }
 
 .skill-name {
-  font-size: 8rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 13px;
 }
@@ -302,7 +302,7 @@
 /* Progress Bar Background (Dark track) */
 .progress-bar {
   width: 90%;
-  height: 45px; /* Bar ki thickness */
+  height: 12px; /* Bar ki thickness */
   background-color: #1c2541; /* Thoda light dark background bar ke liye */
   border-radius: 18px; /* Rounded corners */
   overflow: hidden;
@@ -358,11 +358,11 @@
  .contact form textarea{
     width: 100%;  
    padding: 2rem;
-   font-size: 5rem;
+   font-size: 1.6rem;
    color: var(--text-color);
    background: var(--bg-color);
    border-radius: 0.8rem;
-   border: 1rem solid var(--main-color);
+   border: 0.2rem solid var(--main-color);
    margin:2rem 3rem;
    resize: none;
 }
@@ -393,12 +393,12 @@
  }
 
  .footer .social a{
-   font-size: 70px;
+   font-size: 2rem;
    color: var(--main-color);
    border: 5px solid var(--main-color);
-   width: 120px;
-   height: 120px;
-   line-height: 115px;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
    display: inline-block;
    text-align: center;
    border-radius: 50%;
@@ -416,7 +416,7 @@
  .footer .copyright{
    margin-top: 25px;
    text-align: center;
-   font-size: 40px;
+   font-size: 1.4rem;
    color: var(--text-color);
  }
 
