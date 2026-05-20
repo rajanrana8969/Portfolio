@@ -366,7 +366,7 @@ span{
 
 .footer{
    width: 100%;
-   padding: 1rem 0;
+   padding: 3rem 0;
    background-color: var(--snd-bg-color);
 }
 
@@ -376,7 +376,7 @@ span{
 }
 
 .footer .social a{
-   font-size: 2rem;
+   font-size: 1.8rem;
    color: var(--main-color);
    border: 0.2rem solid var(--main-color);
    width: 35px;
@@ -385,7 +385,7 @@ span{
    display: inline-block;
    text-align: center;
    border-radius: 50%;
-   margin: 0 1rem;
+   margin: 0 0.8rem;
    transition: 0.3s ease;
 }
 
@@ -398,7 +398,7 @@ span{
 .footer .copyright{
    margin-top: 1rem;
    text-align: center;
-   font-size: 1.5rem;
+   font-size: 1.4rem;
    color: var(--text-color);
 }
 
